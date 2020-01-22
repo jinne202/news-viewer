@@ -10,7 +10,9 @@ const NewsListBlock = styled.div`
     box-sizing : border-box;
     padding: 3rem;
     width : 768px;
+    height : 700px;
     margin : 0 auto;
+    overflow-y : scroll;
     @media screen and (max-width : 768px){
         width : 100%;
         padding: 1rem 0;
